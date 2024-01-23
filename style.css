@@ -1,0 +1,80 @@
+body{
+    background:#122523;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 130px;
+    position: absolute; 
+    width: 350px;
+    background-color: #144943;
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+} 
+input{
+    margin: 6px 0px;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1.05rem;
+
+
+}
+.btn{
+    margin: 12px 0px;
+    padding: 8px;
+    width: 100px;
+    background-color: #090909;
+    border-radius: 4px;
+    color: #fff;
+}
+h1{
+    
+    font-size: 3rem;
+}
+.Gno{
+    background-color: black;
+    margin: 0px 3px ;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    padding: 5px;
+    color: rgb(35, 141, 179);
+}
+.para{
+    margin:2px 0px;
+}
+.start{
+    cursor: pointer;
+    color: rgb(34, 255, 0);
+    margin: -8px;
+}
+.red{
+    color: red;
+}
+@media (max-width:440px){
+    h1{
+        font-size: 2rem;
+    }
+    .box{
+        padding: 6px;
+        width: 330px;
+    }
+    .Gno{
+        font-size: 0.8rem;
+    }
+}
